@@ -1,0 +1,535 @@
+@media screen and (max-width: 1620px) {
+    header #header-container, #footer .footer-container {
+        width: 95%;
+    }
+    section.main .main-container .block-car {
+        width: 55%;
+    }
+    section.main .main-container .block-main-description {
+        width: 40%;
+    }
+    section.main .main-container .block-main-description h1.title {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 1500px) {
+    section.main {
+        background-image: url("../../images/bg-b2.png"), url("../../images/bg-b1.png");
+        background-position: 100% 0 , -27% 65%;
+        background-size: 48%, 50%;
+    }
+    section.main .main-container {
+        justify-content: center;
+    }
+    section.main .main-container .block-car {
+        width: 100%;
+        order: 2;
+    }
+    section.main .main-container .block-main-description {
+        width: 95%;
+        order: 1;
+    }
+    section.main .main-container .block-main-description h1.title {
+        margin-top: 40px;
+    }
+    section.main .main-container .block-main-description p {
+        margin: 15px 0 15px 0;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .slider-sertificates {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1300px) {
+    header #header-container .header-block-text {
+        display: none;
+    }
+    section.main {
+        background-position: 100% 0, -40% 60%;
+        background-size: 80%, 60%;
+    }
+    section.main .main-container .block-car {
+        width: 60%;
+        margin: 45px 0;
+    }
+    section.main .main-container .block-main-description {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.main .main-container .block-main-description h1.title {
+        text-align: center;
+    }
+    section.main .add-blocks {
+        width: 75%;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 1199px) {
+    header #header-container .social-icons {
+        display: none;
+    }
+    section.main .add-blocks {
+        width: 85%;
+    }
+    section.properties .prop-container .prop-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section.properties .prop-container .prop-main .point-one {
+        left: auto;
+        bottom: 440px;
+    }
+    section.properties .prop-container .prop-main .point-two {
+        top: auto;
+        left: auto;
+        bottom: 390px;
+    }
+    section.properties .prop-container .prop-main .point-three {
+        top: auto;
+        left: auto;
+        bottom: 340px;
+    }
+    section.properties .prop-container .prop-main .point-four {
+        right: auto;
+        bottom: 290px;
+    }
+    section.properties .prop-container .prop-main .point-five {
+        right: auto;
+        bottom: 240px;
+    }
+    section.properties .prop-container .prop-main .point-six {
+        right: auto;
+        bottom: 190px;
+    }
+    section.delivery {
+        padding-bottom: 55px;
+    }
+    section.delivery .container .delivery-main .description-blocks {
+        justify-content: space-around;
+    }
+    section.stages-work .container h2.title {
+        padding: 50px 0 50px 0;
+    }
+    section.stages-work .container .stages {
+        max-width: 540px;
+        height: 850px;
+        margin: 0 auto;
+    }
+    .stage:nth-child(2n+1):before {
+        content: url("../../images/arrow-st.png");
+        position: absolute;
+        bottom: 110px;
+        left: 257px;
+    }
+    .stage:not(:last-child):after{
+        display: none;
+        content: ' ';
+        position: absolute;
+        bottom: 110px;
+        left: 257px;
+    }
+    section.price .container .price-table {
+        width: 95%;
+        margin: 0 auto;
+    }
+    section.presentation .presentation-container {
+        width: 95%;
+        justify-content: center;
+    }
+    section.presentation .presentation-container .present-img {
+        width: 50%;
+    }
+    .location-slider .slide {
+        max-width: 520px;
+    }
+    .slider-sertificates .slide .slide-img {
+        width: 240px;
+    }
+    section.location h2.title {
+        padding: 70px 0 50px 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    section.location {
+        min-height: 630px;
+    }
+    section.sertificates h2.title {
+        width: 90%;
+    }
+    section.questions .container {
+        justify-content: center;
+    }
+    section.questions .container .block-questions .block-faq .faq-item {
+        width: 500px;
+    }
+    #footer .footer-container {
+        flex-wrap: wrap;
+    }
+    #footer .footer-container .footer-logo {
+        width: 100%;
+        height: 120px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    header #header-container #header-menu {
+        display: none;
+    }
+    section.main .add-blocks {
+        width: 75%;
+    }
+    section.main .add-blocks {
+        min-height: 320px;
+        align-content: space-around;
+    }
+    section.main {
+        background-position: 100% 0, -40% 53%;
+        background-size: 80%, 60%;
+    }
+    section.price .container .price-table td {
+        padding: 0 10px;
+    }
+    section.cooperation {
+        background-size: 1200px;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        padding-bottom: 50px;
+    }
+    section.cooperation .container .block-cards {
+        width: 90%;
+        justify-content: space-around;
+    }
+    section.cooperation .container .block-cards .card {
+        margin-bottom: 25px;
+    }
+    section.presentation .presentation-container .present-form {
+        width: 450px;
+    }
+    section.location {
+        min-height: 680px;
+    }
+    section.questions {
+        background-position: 80% 100%;
+        background-size: 1500px;
+    }
+    section.questions .container .block-faq .accordion .accordion-item .accordion-answer {
+        font-size: 14px;
+    }
+
+    section.questions .container .block-faq .faq-btn {
+        margin: 60px 0 140px 0;
+    }
+    section.questions .container .block-consultant {
+        width: 50%;
+        min-height: 550px;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    section.questions .container .block-consultant .consultant-cart {
+        width: 362px;
+        height: 479px;
+        justify-content: center;
+    }
+    section.questions .container .block-consultant img {
+        width: 322px;
+        top: 2px;
+        left: 10%;
+    }
+    #footer .footer-container .services-container {
+        margin-bottom: 20px;
+    }
+    #footer .footer-container {
+        padding-bottom: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    header, header #header-container {
+        height: 60px;
+    }
+    header #header-container .header-logo svg {
+        width: 131px;
+        height: 26px;
+    }
+    header #header-container .header-info .number, header #header-container .header-info .mail {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    section.main {
+        background-position: 55% -80%, 358% 50%;
+        background-size: 1200px, 830px;
+    }
+    section.main .main-container .block-main-description h1.title {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: left;
+    }
+    section.main .main-container .block-main-description p {
+        width: 85%;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 30px 0 80px 0;
+    }
+    section.main .main-container .block-main-description .block-btn-main {
+        width: 280px;
+        height: 75px;
+    }
+    section.main .main-container .block-main-description .block-btn-main img {
+        width: 91px;
+        height: 75px;
+    }
+    section.main .main-container .block-main-description .block-btn-main .btn-main {
+        width: 260px;
+        height: 65px;
+        font-size: 14px;
+        line-height: 16px;
+        padding-right: 38px;
+        padding-left: 89px;
+        text-align: center;
+    }
+    section.main .main-container .block-car {
+        width: 95%;
+        margin: 100px 0 40px 0;
+    }
+
+    section.properties .prop-container .prop-heading .partners {
+        width: 100%;
+        height: 185px;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.price .container .price-table {
+        display: none;
+    }
+    section.cooperation .container .block-cards {
+        width: 100%;
+        justify-content: center;
+    }
+    section.main .add-blocks .add-block {
+        width: 310px;
+        padding: 0 10px;
+    }
+    section.main .add-blocks .add-block .add-block-text {
+        font-size: 14px;
+    }
+    section.main .add-blocks .add-block .add-block-img {
+        min-width: 115px;
+    }
+    section.properties .prop-container .prop-heading h2.title {
+        margin-top: 70px;
+    }
+    section.properties .prop-container .prop-heading h3.title {
+        width: 75%;
+        margin: 20px auto 28px auto;
+    }
+    h2.title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    h3.title {
+        font-size: 16px;
+    }
+    section.properties .prop-container .prop-main {
+        background-position: 77%;
+        height: 590px;
+        background-size: 1030px;
+    }
+    section.delivery .container h2.title {
+        padding-top: 50px;
+        width: 65%;
+    }
+    section.delivery .container .delivery-main .selection-btn {
+        justify-content: space-around;
+    }
+    .delivery-btn {
+        width: 174px;
+        height: 110px;
+    }
+    .delivery-btn .btn-del {
+        width: 174px;
+        height: 48px;
+    }
+    section.delivery .container .delivery-main .description-blocks .description-block {
+        width: 95%;
+        padding: 37px 19px 10px 20px;
+        margin: 3px 0;
+    }
+    section.delivery .container .delivery-main .description-blocks .description-block .block-text {
+        margin-left: 30px;
+    }
+    section.stages-work .container .stages {
+        justify-content: center;
+        height: 1660px;
+        width: 50%;
+    }
+    section.stages-work .container h2.title {
+        width: 50%;
+    }
+    .stage:nth-child(2n+1):before {
+        display: none;
+        content: '';
+        position: absolute;
+        bottom: 110px;
+        left: 257px;
+    }
+    section.stages-work .container .stages .stage:not(:last-child):after {
+        display: block;
+        transform: rotate(90deg);
+        top: 393px;
+        bottom: 0;
+        left: 135px;
+    }
+    section.price {
+        background-size: 850px;
+        min-height: 390px;
+    }
+    section.price .container h2.title {
+        width: 60%;
+    }
+    section.price .container h3.title {
+        width: 64%;
+        margin: 20px auto 50px auto;
+        font-size: 14px;
+    }
+    section.price .container .btn-pice {
+        display: flex;
+    }
+    section.cooperation {
+        min-height: 1600px;
+        background-size: 4000px;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    section.cooperation .container h2.title {
+        font-size: 30px;
+        padding: 124px 0 55px 0;
+    }
+    section.cooperation .container .block-cards {
+        width: 75%;
+    }
+    section.presentation {
+        padding-bottom: 65px;
+        background-size: 3900px;
+    }
+    section.presentation .presentation-container .present-form .messengers {
+        max-width: 320px;
+        justify-content: space-between;
+        margin: 20px auto 34px auto;
+    }
+    section.presentation .presentation-container .present-img {
+        width: 95%;
+        margin: 74px 0 41px 0;
+    }
+    section.presentation .presentation-container .present-form {
+        width: 100%;
+        min-height: 456px;
+        height: 100%;
+        padding: 49px 42px 20px 42px;
+    }
+    section.presentation .presentation-container {
+        flex-wrap: wrap;
+    }
+    section.presentation .presentation-container .present-form label {
+        justify-content: space-between;
+    }
+    .location-slider {
+        width: 70%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .slider-sertificates {
+        width: 360px;
+    }
+    .slider-sertificates .slide .slide-img {
+        width: 190px;
+    }
+
+    #footer .footer-container {
+        flex-direction: column;
+        height: 1150px;
+    }
+    #footer .footer-container .footer-logo {
+        margin-bottom: 0;
+    }
+    #footer .footer-container .services-container {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    section.main {
+        background-position: 55% -80%, 75% 45%;
+    }
+    section.cooperation {
+        background-size: 3000px;
+    }
+    section.questions .container .block-consultant img {
+        left: -20%;
+    }
+
+    .location-slider {
+        width: 90%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .location-slider .slide {
+        max-width: 400px;
+    }
+    section.questions .container .block-questions .block-faq {
+        max-width: 580px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.questions .container .block-questions .block-faq .faq-item {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 380px) {
+    section.questions .container .block-consultant img {
+        left: -38%;
+        width: 280px;
+        top: 52px;
+    }
+    section.questions .container .block-consultant .consultant-cart {
+        width: 310px;
+    }
+    .delivery-btn {
+        width: 135px;
+    }
+    section.delivery .container .delivery-main .selection-btn .delivery-btn .img-courier {
+        left: 45px;
+    }
+    section.delivery .container .delivery-main .selection-btn .delivery-btn .img-route {
+        top: 10px;
+        left: 35px;
+    }
+    section.price {
+        background-size: 950px;
+        min-height: 450px;
+    }
+    #footer .footer-container .services-container {
+        width: 320px;
+    }
+    .slider-sertificates {
+        width: 320px;
+    }
+    .slider-sertificates {
+        width: 280px;
+    }
+    #footer .footer-container .contacts-container {
+        width: 100%;
+    }
+    #footer .footer-container .services-container {
+        width: 100%;
+    }
+}
